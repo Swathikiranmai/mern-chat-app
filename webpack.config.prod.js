@@ -4,11 +4,9 @@ var CleanPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   devtool: 'source-map',
-  entry: ['babel-polyfill', __dirname + "./src/client/index.js"],
-
-  // [
-  //   './src/client/index'
-  // ],
+  entry:  [
+    './src/client/index'
+  ],
   output: {
     path: path.resolve(__dirname, './static/dist'),
     filename: 'bundle.js',
