@@ -37,7 +37,7 @@ class WelcomePage extends Component {
       return (
         <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column'}}>
           <header style={{textAlign: 'center'}}>
-            <p>Welcome to React Redux Socket.io Chat</p>
+            <p>Welcome to mern chat app</p>
             <p>This is an open source chat program.</p>
           </header>
           <main>
