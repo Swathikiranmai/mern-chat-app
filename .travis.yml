@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+  - "stable"
+env:
+  - NODE_ENV="development"
+services:
+  - mongodb
+sudo: required
+addons:
+  sonarcloud:
+    organization: "default"
+    token:
+      secure: "0710be16f12bf68f0fee33f33d83a743c3cbd43f"
+cache:
+  directories:
+    - $HOME/.npm
+    - $HOME/.sonar/cache
+    - $HOME/.sonar/native-sonar-scanner
+
+script:
+  - npm run build
+  # - gulp
+  # - npm run sonar-scanner
