@@ -1,9 +1,9 @@
 
-# MERN-chat-app
+# mern-chat-app
 
 ## Use Guide
 
-First off, clone the repository and then `cd react-redux-socketio-chat`and `npm install`
+First off, clone the repository and then `cd mern-chat-app`and `npm install`
 
 You can create channels with the + sign on the nav bar on the left.
 If you click on a user's name to send him a private message (opens a private channel)
